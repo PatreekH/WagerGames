@@ -2,7 +2,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
-    <title>Wager Games</title>
+    <title>home</title>
 
     <!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
   	<link rel="stylesheet" type="text/css" href="styles.css">
@@ -17,21 +17,29 @@
 
 <body>
 
-<nav>
-    <div id="main_menu">
-        <div id="menu_title">Menu</div>
-    </div>
+<div id="main_menu" class="is-closed">
+    <div id="menu_title">Menu</div>
+    <div id="menu_close">Close</div>
+    <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+        <span class="hamb-top"></span>
+        <span class="hamb-middle"></span>
+        <span class="hamb-bottom"></span>
+    </button>
+    <div id="slant1"></div>
+</div>
 
+<div id="user_profile">
+    <div id="profile_icon"><i class="fa fa-user" aria-hidden="true"></i></div>
+    <div id="slant2"></div>
+</div>
+
+<div id="header">
     <div id="logo">
-        Logo
+        <center>Logo</center>
     </div>
+</div>
 
-    <div id="user_profile">
-        <div id="profile_icon">Icon</div>
-    </div>
-</nav>
-
-<!-- <script type="text/javascript" src=""></script> -->
+<script type="text/javascript" src="logic.js"></script>
 <script src="https://use.fontawesome.com/2ce3b4e69a.js"></script>
 </body>
 </html>
